@@ -5,14 +5,16 @@ import ClosedCard from "../CardComponents/ClosedCard";
 import OpennedCard from "../CardComponents/OpennedCard";
 import { IProject } from "../../../../types/ProjectTypes";
 
-export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, tecnologias }: IProject) {  
+export default function CardProjeto({ titulo, tipo, descricao, expandido, link, status, tecnologias, page }: IProject) {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleIsOpen = () => { setIsOpen(!isOpen)};
+  const toggleIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       {!isOpen ? (
         <motion.div className={isOpen ? "card aberto" : "card fechado"} onClick={toggleIsOpen}>
-          <ClosedCard tipo={tipo} link={link} titulo={titulo} descricao={descricao} />
+          <ClosedCard tipo={tipo} link={link} titulo={titulo} descricao={descricao} page={page} />
         </motion.div>
       ) : (
         <>

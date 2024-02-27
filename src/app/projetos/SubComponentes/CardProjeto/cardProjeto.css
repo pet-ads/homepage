@@ -52,7 +52,20 @@
   color: var(--cor-detalhes-azul);
 }
 
-.Icon{
+.logo-projeto-dev {
+  width: 50px;
+  height: auto;
+  display: flex;
+  filter: hue-rotate(9deg);
+  color: var(--cor-detalhes-azul);
+}
+
+.logo-projeto-dev:hover {
+  cursor: pointer;
+  animation: jump 0.75s;
+}
+
+.Icon {
   width: 35px;
   height: 35px;
   display: flex;
@@ -61,7 +74,7 @@
   color: var(--cor-detalhes-azul);
 }
 
-.icon-aberto{
+.icon-aberto {
   width: 35px;
   height: 35px;
   display: flex;
@@ -69,19 +82,19 @@
   color: var(--cor-detalhes-azul);
 }
 
-.Icon:hover{
+.Icon:hover {
   cursor: pointer;
   animation: jump 0.75s;
 }
 
-.logoConteinerOpenned{
+.logoConteinerOpenned {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   width: auto;
 }
 
-.logoConteinerClosed{
+.logoConteinerClosed {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -90,14 +103,15 @@
 }
 
 .closeButton {
-    color: var(--cor-detalhes-azul);
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 8px;
-    top: 8px
+  color: var(--cor-detalhes-azul);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 8px
 }
-.closeButton:hover{ 
+
+.closeButton:hover {
   cursor: pointer;
 }
 
@@ -115,7 +129,7 @@
   line-height: 150%;
   padding-right: 1rem;
   padding-bottom: 1rem;
-  color : var(--cor-texto__claro)
+  color: var(--cor-texto__claro)
 }
 
 .card--texto__envolvidos {
@@ -128,17 +142,19 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
-    transform: translateY(-5px); 
+    transform: translateY(-5px);
   }
+
   100% {
-    transform: translateY(0); 
+    transform: translateY(0);
   }
 }
 
-@media (max-width: 1370px){
-  .aberto{
-    top:25%
+@media (max-width: 1370px) {
+  .aberto {
+    top: 25%
   }
 }
 
@@ -146,11 +162,13 @@
   .card {
     height: auto;
   }
-  .aberto{
+
+  .aberto {
     top: 13%;
     height: 78vh;
   }
-  .card--texto__expandido{
+
+  .card--texto__expandido {
     line-height: 140%;
   }
 
@@ -181,7 +199,7 @@
     overflow-y: scroll;
   }
 
-  .card--texto__expandido{
+  .card--texto__expandido {
     height: auto;
     line-height: 118%;
   }
@@ -201,6 +219,7 @@
     width: auto;
     height: 80vh;
   }
+
   .fechado {
     height: auto;
     width: auto;

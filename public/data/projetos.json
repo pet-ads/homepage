@@ -28,7 +28,8 @@
       "status": "Em andamento",
       "descricao": "Desenvolvimento da página para a semana da computação do IFSP São Carlos - Wecomp.",
       "expandido": "A Wecomp é uma semana da computação que visa aproximar os alunos de Computação do câmpus das diversas empresas existentes na região. Para divulgar a semana, foi desenvolvida uma página em React contendo informações sobre datas, programação, local de realização e empresas parceiras. ",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": "https://wecomp.vercel.app"
     },
     {
       "id": "4",
@@ -58,7 +59,8 @@
       "status": "Concluído",
       "descricao": "Desenvolvimento da página PET/ADS do câmpus São Carlos, para divulgação de informações sobre o grupo.",
       "expandido": "Tão importante quanto desenvolver atividades de ensino, pesquisa e extensão é disseminar os resultados de trabalhos do PET/ADS para a comunidade de Computação dentro e fora do câmpus. Por isso, foi desenvolvido um site em React para divulgar o grupo PET/ADS, seus membros e ex-membros e os projetos desenvolvidos ao longo dos anos.",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": "http://petads.paginas.scl.ifsp.edu.br"
     },
     {
       "id": "7",
@@ -68,7 +70,8 @@
       "status": "Concluído",
       "descricao": "Desenvolvimento da página para o projeto de extensão Inclusão Digital para Pessoas com Deficiência Intelectual, junto a APAE São Carlos. ",
       "expandido": "O projeto Inclusão Digital para Pessoas com Deficiência Intelectual, coordenado pela profa. Célia Kawabata, tem como objetivo fazer a inclusão digital e social de pessoas com deficiência intelectual por meio de uma parceria com a APAE São Carlos. Para divulgar a iniciativa, da qual alunos do PET/ADS também fazem parte, foi desenvolvida uma página Web em React, que detalha as ações, bem como os professores, tutores e alunos envolvidos no projeto.",
-      "tecnologias": "Tecnologias utilizadas: - Framework React"
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": "http://incluif.paginas.scl.ifsp.edu.br"
     }
   ]
 }
