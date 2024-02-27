@@ -72,6 +72,39 @@
       "expandido": "O projeto Inclusão Digital para Pessoas com Deficiência Intelectual, coordenado pela profa. Célia Kawabata, tem como objetivo fazer a inclusão digital e social de pessoas com deficiência intelectual por meio de uma parceria com a APAE São Carlos. Para divulgar a iniciativa, da qual alunos do PET/ADS também fazem parte, foi desenvolvida uma página Web em React, que detalha as ações, bem como os professores, tutores e alunos envolvidos no projeto.",
       "tecnologias": "Tecnologias utilizadas: - Framework React",
       "page": "http://incluif.paginas.scl.ifsp.edu.br"
+    },
+    {
+      "id": "8",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/homepage-pet-bio",
+      "titulo": "Página do gruppo PET/LICBIO",
+      "status": "Em andamento",
+      "descricao": "Desenvolvimento da página PET/LICBIO do câmpus São Paulo, para divulgação de informações sobre o grupo.",
+      "expandido": "Personalização do layout e do conteúdo da página originalmente desenvolvida para o PET/ADS para divulgação das atividades do grupo PET da Licenciatura em Ciências Biológicas do IFSP - PET/LICBIO, do câmpus São Paulo.",
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": ""
+    },
+    {
+      "id": "9",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/homepage-pet-qui",
+      "titulo": "Página do gruppo PET/QUI",
+      "status": "Em andamento",
+      "descricao": "Desenvolvimento da página PET/QUI do câmpus Sertãozinho, para divulgação de informações sobre o grupo.",
+      "expandido": "Personalização do layout e do conteúdo da página originalmente desenvolvida para o PET/ADS para divulgação das atividades do grupo PET da Química do IFSP - PET/QUI, do câmpus São Sertãozinho.",
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": ""
+    },
+    {
+      "id": "10",
+      "tipo": "extensão-desenvolivmento",
+      "link": "https://github.com/pet-ads/systematic",
+      "titulo": "Reengenharia da ferramenta StArt",
+      "status": "Em andamento",
+      "descricao": "Reengenharia da ferramenta StArt (State of the Art through Systematic Review)  para apoio à revisões sistemáticas de literatura.",
+      "expandido": "Projeto e desenvolvimento do front-end e do back-end da nova ferramenta StArt (State of the Art through Systematic Review), que será disponibilizada para Web. O projeto é desenvolvido em parceria com pesquisadores da Universidade de Brasília, Universidade Federal de São Carlos - UFSCar e Universidade Tecnológica Federal do Paraná - UTFPR.",
+      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "page": ""
     }
   ]
 }
