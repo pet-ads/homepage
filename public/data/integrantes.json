@@ -10,15 +10,6 @@
       "linkedin": "https://www.linkedin.com/in/lucas-vinicius-sigoli-6254b523b/"
     },
     {
-      "id": "2",
-      "nome": "Otávio Lopes",
-      "foto": "./images/fotos_alunos/tata.png",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/otaviopl",
-      "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
-    },
-    {
       "id": "3",
       "nome": "Bianca C. Antonietti",
       "foto": "./images/fotos_alunos/bianca.jpeg",
@@ -35,15 +26,6 @@
       "ano": "2023",
       "github": "https://github.com/gabrmanh",
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
-    },
-    {
-      "id": "5",
-      "nome": "Luiz A. Chiquetano",
-      "foto": "./images/fotos_alunos/luizChiquetano.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "github": "https://github.com/luiz-chiq",
-      "linkedin": "https://www.linkedin.com/in/luiz-chiquetano/"
     },
     {
       "id": "6",
@@ -104,7 +86,7 @@
       "nome": "Gabriel Gatti",
       "foto": "./images/fotos_alunos/gatti.jpeg",
       "ano": "2023",
-      "tipo": "Voluntário",
+      "tipo": "Bolsista",
       "github": "https://github.com/GattiGabriel",
       "linkedin": "https://www.linkedin.com/in/gabriel-gatti-1634922a3/"
     },
@@ -381,6 +363,18 @@
       "nome": "Wanilton Figueiredo",
       "foto": "./images/fotos_alunos/Wanilton Figueiredo.jpg",
       "linkedin": "https://www.linkedin.com/in/wanilton-figueiredo-de-matos-filho-b41b89101/"
+    },
+    {
+      "id": "044",
+      "nome": "Otávio Lopes",
+      "foto": "./images/fotos_alunos/tata.png",
+      "linkedin": "https://www.linkedin.com/in/otávio-pereira-lopes-603432218/"
+    },
+    {
+      "id": "045",
+      "nome": "Luiz A. Chiquetano",
+      "foto": "./images/fotos_alunos/luizChiquetano.jpeg",
+      "linkedin": "https://www.linkedin.com/in/luiz-chiquetano/"
     }
   ],
   "tutores": [
