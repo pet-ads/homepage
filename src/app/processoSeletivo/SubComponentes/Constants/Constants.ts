@@ -12,9 +12,9 @@ export const requisitosContent = {
 export const inscricoesContent = {
   introducao: "As inscrições devem ser realizadas pelo e-mail.",
   prazo: "Prazo de inscrição:",
-  data: "23 de março de 2023",
+  data: "04 de março de 2024 a 14 de março de 2024",
   email: "pet.ads.scl@ifsp.edu.br",
-  estado: "(encerrado)",
+  estado: "(aguardando)",
   detalhes:
     " Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:",
 };
