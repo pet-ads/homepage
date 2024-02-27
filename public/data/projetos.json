@@ -103,7 +103,7 @@
       "status": "Em andamento",
       "descricao": "Reengenharia da ferramenta StArt (State of the Art through Systematic Review)  para apoio à revisões sistemáticas de literatura.",
       "expandido": "Projeto e desenvolvimento do front-end e do back-end da nova ferramenta StArt (State of the Art through Systematic Review), que será disponibilizada para Web. O projeto é desenvolvido em parceria com pesquisadores da Universidade de Brasília, Universidade Federal de São Carlos - UFSCar e Universidade Tecnológica Federal do Paraná - UTFPR.",
-      "tecnologias": "Tecnologias utilizadas: - Framework React",
+      "tecnologias": "Tecnologias utilizadas: - Kotlin, Spring Boot, Mongo DB, Framework React e Chakra-ui",
       "page": ""
     }
   ]
