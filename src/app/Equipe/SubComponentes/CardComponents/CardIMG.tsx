@@ -14,7 +14,7 @@ export default function CardImage({ customClass, foto, altFoto, github, linkedin
 
   return (
     <div className={styles[customClass!]} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <img style={blurred} className={styles.img} src={foto} alt={altFoto} />
+      <img style={linkedin !== "" ? blurred : {}} className={styles.img} src={foto} alt={altFoto} />
 
       <div className={styles.iconWrapper}>
         {github && (
@@ -25,11 +25,13 @@ export default function CardImage({ customClass, foto, altFoto, github, linkedin
           </Link>
         )}
 
-        <Link href={linkedin} target="_blank" rel="noopener noreferrer">
-          <span className={styles.linkedinIcon}>
-            <FaLinkedin />
-          </span>
-        </Link>
+        {linkedin !== "" && (
+          <Link href={linkedin} target="_blank" rel="noopener noreferrer">
+            <span className={styles.linkedinIcon}>
+              <FaLinkedin />
+            </span>
+          </Link>
+        )}
       </div>
     </div>
   );
