@@ -49,7 +49,7 @@
   height: 125px;
 }
 
-.ExImgContainter{
+.ExImgContainter {
   width: 100px;
   height: 100px;
 }
@@ -96,6 +96,7 @@
 .linkedinIcon:hover {
   color: var(--cor-detalhes-azul);
 }
+
 
 .iconsContainer {
   display: flex;

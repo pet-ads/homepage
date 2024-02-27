@@ -106,14 +106,14 @@
       "nome": "Ingrid Nery",
       "foto": "./images/fotos_alunos/Ingrid.jpg",
       "anos": "2019-2023",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "02",
       "nome": "Amadeu  Andrade ",
       "foto": "./images/fotos_alunos/AmadeuJunior.jpeg",
       "anos": "2019-2023",
-      "linkedin": "https://www.linkedin.com/in/amadeu-andrade-775113141/"
+      "linkedin": ""
     },
     {
       "id": "03",
@@ -134,49 +134,49 @@
       "nome": "Paulo",
       "foto": "./images/fotos_alunos/Paulo.jpg",
       "anos": "2019-2023",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "06",
       "nome": "Lucas da Silva",
       "foto": "./images/fotos_alunos/Lucas Gabriel.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "07",
       "nome": "Maria Eduarda Santos",
       "foto": "./images/fotos_alunos/Maria Eduarda.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "08",
       "nome": "Nathan da Silva",
       "foto": "./images/fotos_alunos/Nathan.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "09",
       "nome": "Pedro  Piassi",
       "foto": "./images/fotos_alunos/Pedro.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "010",
       "nome": "Suzy  Trindade",
       "foto": "./images/fotos_alunos/Suzy.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "011",
       "nome": "Veranice Guimarães",
       "foto": "./images/fotos_alunos/Veranice.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "012",
       "nome": "Joel Rodrigues",
       "foto": "./images/fotos_alunos/Joel.jpg",
-      "linkedin": "https://www.linkedin.com"
+      "linkedin": ""
     },
     {
       "id": "013",
@@ -362,7 +362,7 @@
       "id": "043",
       "nome": "Wanilton Figueiredo",
       "foto": "./images/fotos_alunos/Wanilton Figueiredo.jpg",
-      "linkedin": "https://www.linkedin.com/in/wanilton-figueiredo-de-matos-filho-b41b89101/"
+      "linkedin": ""
     },
     {
       "id": "044",
@@ -393,7 +393,7 @@
       "tipo": "exTutor",
       "nome": "João Luiz Franco",
       "foto": "./images/fotos_tutores/Joao.jpg",
-      "linkedin": "https://www.linkedin.com",
+      "linkedin": "",
       "ano": "2010-2022"
     }
   ]
