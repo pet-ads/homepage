@@ -19,6 +19,6 @@ export const inscricoesContent = {
     " Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:",
 };
 
-export const drive = "https://drive.google.com/file/d/1mRjpnZ5xrETw9uUEJDPvhFZNyDVl8Gv3/view";
+export const drive = "https://drive.google.com/file/d/1d-2TS-uaQsuS_ZwKonraD17tJOIq1W3y/view?usp=sharing";
 
 export const sendMail = "mailto:pet.ads.scl@ifsp.edu.br?subject=Processo seletivo PET/ADS";
