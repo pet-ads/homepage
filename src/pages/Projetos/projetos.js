@@ -1,5 +1,5 @@
 import "./projetos.css";
-import React from 'react';
+import React from "react";
 import Header from "../../components/ui/Header/header";
 import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
@@ -23,17 +23,17 @@ export default function Projetos() {
                   titulo={projetos.titulo}
                   status={projetos.status}
                   tipo={projetos.tipo}
-                  link = {projetos.link}
+                  link={projetos.link}
                   descricao={projetos.descricao}
                   expandido={projetos.expandido}
                   tecnologias={projetos.tecnologias}
-                >
-                </CardProjeto>
+                  page={projetos.page}
+                ></CardProjeto>
               ))
             }
           />
         </section>
       </div>
     </>
-  )
+  );
 }
