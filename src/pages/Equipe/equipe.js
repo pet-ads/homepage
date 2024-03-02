@@ -60,14 +60,16 @@ export default function Equipe() {
                   ))}
                 </section>
                 <section className="equipe--alunos">
-                  {exAlunos.map((exAluno) => (
-                    <CardExAluno
-                      nome={exAluno.nome}
-                      srcFoto={exAluno.foto}
-                      anos={exAluno.anos}
-                      linkedin={exAluno.linkedin}
-                    />
-                  ))}
+                  {exAlunos
+                    .sort((a, b) => a.nome.localeCompare(b.nome))
+                    .map((exAluno) => (
+                      <CardExAluno
+                        nome={exAluno.nome}
+                        srcFoto={exAluno.foto}
+                        anos={exAluno.anos}
+                        linkedin={exAluno.linkedin}
+                      />
+                    ))}
                 </section>
               </Collapsible>
             </>
