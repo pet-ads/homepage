@@ -17,19 +17,29 @@ export default function Projetos() {
         <section className="menu-projetos">
           <FetchProj
             render={(arrProjetos) =>
-              arrProjetos.map((projetos) => (
-                <CardProjeto
-                  key={projetos.id}
-                  titulo={projetos.titulo}
-                  status={projetos.status}
-                  tipo={projetos.tipo}
-                  link={projetos.link}
-                  descricao={projetos.descricao}
-                  expandido={projetos.expandido}
-                  tecnologias={projetos.tecnologias}
-                  page={projetos.page}
-                ></CardProjeto>
-              ))
+              arrProjetos
+                .slice()
+                .sort((a, b) => {
+                  const statusOrder = {
+                    "Em andamento": 1,
+                    Contínuo: 2,
+                    Concluído: 3,
+                  };
+                  return statusOrder[a.status] - statusOrder[b.status];
+                })
+                .map((projetos) => (
+                  <CardProjeto
+                    key={projetos.id}
+                    titulo={projetos.titulo}
+                    status={projetos.status}
+                    tipo={projetos.tipo}
+                    link={projetos.link}
+                    descricao={projetos.descricao}
+                    expandido={projetos.expandido}
+                    tecnologias={projetos.tecnologias}
+                    page={projetos.page}
+                  ></CardProjeto>
+                ))
             }
           />
         </section>
