@@ -31,8 +31,8 @@ function ProcessoSeletivo() {
             texto_1="As inscrições devem ser realizadas pelo e-mail"
             email="pet.ads.scl@ifsp.edu.br"
             texto_2="Prazo de inscrição:"
-            data="04 de março de 2024 a 14 de março de 2024"
-            estado="(aguardando)"
+            data="04 a 14 de março de 2024"
+            estado=""
             texto_3="Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:"
           />
         </section>
