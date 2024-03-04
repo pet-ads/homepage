@@ -6,11 +6,10 @@ function Inscricoes({ titulo, texto_1, email, texto_2, data, estado, texto_3 }) 
     <div className={styles.Inscricao}>
       <h2 className={styles.titulo}>{titulo}</h2>
       <p className={styles.texto}>
-        {texto_1}{" "}
+        {texto_1}
         <a className={styles.email} href="mailto:pet.ads.scl@ifsp.edu.br?subject=Processo seletivo PET/ADS">
           {email}
         </a>
-        .
       </p>
       <p className={styles.texto}>
         {texto_2} <span className={/*styles.encerrado*/ ""}>{data}</span> {estado}

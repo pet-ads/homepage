@@ -28,8 +28,8 @@ function ProcessoSeletivo() {
 
           <Inscricoes
             titulo="Inscrições"
-            texto_1="As inscrições devem ser realizadas pelo e-mail"
-            email="pet.ads.scl@ifsp.edu.br"
+            texto_1="As inscrições devem ser realizadas pelo e-mail formulário indicado no edital."
+            email=""
             texto_2="Prazo de inscrição:"
             data="04 a 14 de março de 2024"
             estado=""
