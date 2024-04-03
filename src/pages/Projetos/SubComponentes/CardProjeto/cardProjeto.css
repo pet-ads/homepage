@@ -158,6 +158,13 @@
   }
 }
 
+@media screen and (max-width: 1286px) {
+  .fechado {
+    height: 22vw;
+  }
+
+}
+
 @media (max-width: 1200px) {
   .card {
     height: auto;
