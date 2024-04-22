@@ -405,6 +405,12 @@
       "nome": "Lucas S. de Almeida",
       "foto": "./images/fotos_alunos/Lucas_Almeida.jpg",
       "linkedin": "https://www.linkedin.com/in/lucas-silva-de-almeida-601b6628a/"
+    },
+    {
+      "id": "048",
+      "nome": "Ariadne Rezende",
+      "foto": "./images/fotos_alunos/Ariadne rezende.jpeg",
+      "linkedin": "https://www.linkedin.com/in/ariadne-rezende-tavares-13895623b/"
     }
   ],
   "tutores": [
