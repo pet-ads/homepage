@@ -80,6 +80,42 @@
       "tipo": "Bolsista",
       "github": "https://github.com/EduDD125",
       "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
+    },
+    {
+      "id": "12",
+      "nome": "Erick Santinon Gomes",
+      "foto": "./images/fotos_alunos/Erick Santinon Gomes.jpg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "github": "https://github.com/ericksgmes",
+      "linkedin": "https://www.linkedin.com/in/erick-santinon-gomes"
+    },
+    {
+      "id": "13",
+      "nome": "João Pedro Volante",
+      "foto": "./images/fotos_alunos/João Pedro Volante.jpg",
+      "ano": "2023",
+      "tipo": "Voluntário",
+      "github": "https://github.com/jpvolante",
+      "linkedin": "https://www.linkedin.com/in/joao-volante/"
+    },
+    {
+      "id": "14",
+      "nome": "Polyane Stefane",
+      "foto": "./images/fotos_alunos/Polyane Stefane.png",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "github": "https://github.com/PolyStefane",
+      "linkedin": "https://www.linkedin.com/in/polyane-stefane/"
+    },
+    {
+      "id": "15",
+      "nome": "Fhelippe Guedes",
+      "foto": "./images/fotos_alunos/Fhelippe.jpeg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "github": "https://github.com/F-Guedes2003",
+      "linkedin": "https://www.linkedin.com/in/fhelippe-guedes-101822296/"
     }
   ],
   "exAlunos": [
