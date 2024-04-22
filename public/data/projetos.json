@@ -82,7 +82,7 @@
       "descricao": "Desenvolvimento da página PET/LICBIO do câmpus São Paulo, para divulgação de informações sobre o grupo.",
       "expandido": "Personalização do layout e do conteúdo da página originalmente desenvolvida para o PET/ADS para divulgação das atividades do grupo PET da Licenciatura em Ciências Biológicas do IFSP - PET/LICBIO, do câmpus São Paulo.",
       "tecnologias": "Tecnologias utilizadas: - Framework React",
-      "page": "https://github.com/pet-ads/homepage-pet-bio"
+      "page": "https://petbio.vercel.app"
     },
     {
       "id": "9",
