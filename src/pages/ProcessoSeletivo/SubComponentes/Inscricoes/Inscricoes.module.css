@@ -41,6 +41,10 @@
     text-decoration: line-through;
 }
 
+.ativo {
+    color: rgb(101, 101, 255);
+}
+
 .email {
     text-decoration: none;
     color: var(--cor-detalhes-azul);
