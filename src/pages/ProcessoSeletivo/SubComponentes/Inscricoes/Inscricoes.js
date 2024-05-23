@@ -17,7 +17,7 @@ function Inscricoes({ titulo, texto_1, email, texto_2, data, estado, texto_3 }) 
       <p className={styles.texto}>{texto_3} </p>
       <p className={styles.download}>
         <a
-          href="https://drive.google.com/file/d/1d-2TS-uaQsuS_ZwKonraD17tJOIq1W3y/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VaXE89VBv0WvPbhuJa8pdWu0k_vk0e3F/view"
           rel="noreferrer"
           target="_blank"
         >
