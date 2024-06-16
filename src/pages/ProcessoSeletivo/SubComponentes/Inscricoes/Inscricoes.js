@@ -12,7 +12,7 @@ function Inscricoes({ titulo, texto_1, email, texto_2, data, estado, texto_3 }) 
         </a>
       </p>
       <p className={styles.texto}>
-        {texto_2} <span className={styles.ativo}>{data}</span> {estado}
+        {texto_2} <span className={styles.encerrado}>{data}</span> {estado}
       </p>
       <p className={styles.texto}>{texto_3} </p>
       <p className={styles.download}>

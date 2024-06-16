@@ -1,15 +1,6 @@
 {
   "aluno": [
     {
-      "id": "1",
-      "nome": "Lucas Sigoli",
-      "foto": "./images/fotos_alunos/sigoli.png",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "github": "https://github.com/LVSigoli",
-      "linkedin": "https://www.linkedin.com/in/lucas-vinicius-sigoli-6254b523b/"
-    },
-    {
       "id": "3",
       "nome": "Bianca C. Antonietti",
       "foto": "./images/fotos_alunos/bianca.jpeg",
@@ -28,33 +19,6 @@
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
     },
     {
-      "id": "6",
-      "nome": "Bárbara B. Gasques",
-      "foto": "./images/fotos_alunos/barbara.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "github": "https://github.com/BBranco97",
-      "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-branco-gasques-70710320a/"
-    },
-    {
-      "id": "7",
-      "nome": "Vitor A. Bonelli",
-      "foto": "./images/fotos_alunos/vitor.png",
-      "tipo": "Bolsista",
-      "ano": "2021",
-      "github": "https://github.com/Vitor5bonelli",
-      "linkedin": "https://www.linkedin.com/in/vitor-bonelli-580b63243/"
-    },
-    {
-      "id": "8",
-      "nome": "Fábio S. I. Anno",
-      "foto": "./images/fotos_alunos/fabio.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/Fabio270",
-      "linkedin": "https://www.linkedin.com/in/seyijifabio/"
-    },
-    {
       "id": "9",
       "nome": "Saulo F. S. Mania",
       "foto": "./images/fotos_alunos/saulo.jpeg",
@@ -62,15 +26,6 @@
       "ano": "2023",
       "github": "https://github.com/SauloFernando99",
       "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
-    },
-    {
-      "id": "10",
-      "nome": "Ana Lívia H. da Motta",
-      "foto": "./images/fotos_alunos/ana.jpeg",
-      "ano": "2023",
-      "tipo": "Bolsista",
-      "github": "https://github.com/Analiviamotta",
-      "linkedin": "https://www.linkedin.com/in/ana-l%C3%ADvia-motta-75b529278/"
     },
     {
       "id": "11",
@@ -411,6 +366,51 @@
       "nome": "Ariadne Rezende",
       "foto": "./images/fotos_alunos/Ariadne rezende.jpeg",
       "linkedin": "https://www.linkedin.com/in/ariadne-rezende-tavares-13895623b/"
+    },
+    {
+      "id": "10",
+      "nome": "Ana Lívia H. da Motta",
+      "foto": "./images/fotos_alunos/ana.jpeg",
+      "ano": "2023",
+      "tipo": "Bolsista",
+      "github": "https://github.com/Analiviamotta",
+      "linkedin": "https://www.linkedin.com/in/ana-l%C3%ADvia-motta-75b529278/"
+    },
+    {
+      "id": "1",
+      "nome": "Lucas Sigoli",
+      "foto": "./images/fotos_alunos/sigoli.png",
+      "tipo": "Bolsista",
+      "ano": "2023",
+      "github": "https://github.com/LVSigoli",
+      "linkedin": "https://www.linkedin.com/in/lucas-vinicius-sigoli-6254b523b/"
+    },
+    {
+      "id": "6",
+      "nome": "Bárbara B. Gasques",
+      "foto": "./images/fotos_alunos/barbara.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2023",
+      "github": "https://github.com/BBranco97",
+      "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-branco-gasques-70710320a/"
+    },
+    {
+      "id": "7",
+      "nome": "Vitor A. Bonelli",
+      "foto": "./images/fotos_alunos/vitor.png",
+      "tipo": "Bolsista",
+      "ano": "2021",
+      "github": "https://github.com/Vitor5bonelli",
+      "linkedin": "https://www.linkedin.com/in/vitor-bonelli-580b63243/"
+    },
+    {
+      "id": "8",
+      "nome": "Fábio S. I. Anno",
+      "foto": "./images/fotos_alunos/fabio.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "github": "https://github.com/Fabio270",
+      "linkedin": "https://www.linkedin.com/in/seyijifabio/"
     }
   ],
   "tutores": [
