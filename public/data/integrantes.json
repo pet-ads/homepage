@@ -71,6 +71,24 @@
       "tipo": "Bolsista",
       "github": "https://github.com/F-Guedes2003",
       "linkedin": "https://www.linkedin.com/in/fhelippe-guedes-101822296/"
+    },
+    {
+      "id": "16",
+      "nome": "Guilherme Mendes",
+      "foto": "./images/fotos_alunos/GuilhermeMendes.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/GuilhermeAMendes",
+      "linkedin": "https://www.linkedin.com/in/guilherme-mendes-a336a9251/"
+    },
+    {
+      "id": "17",
+      "nome": "Talitha Maria",
+      "foto": "./images/fotos_alunos/Talitha.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/fleurspirituelles",
+      "linkedin": "https://www.linkedin.com/in/fleurspirituelles"
     }
   ],
   "exAlunos": [
