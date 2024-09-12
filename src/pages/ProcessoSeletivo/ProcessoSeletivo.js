@@ -28,10 +28,10 @@ function ProcessoSeletivo() {
 
           <Inscricoes
             titulo="Inscrições"
-            texto_1="As inscrições devem ser realizadas pelo e-mail formulário indicado no edital."
+            texto_1="As inscrições devem ser realizadas pelo formulário indicado no edital."
             email=""
             texto_2="Prazo de inscrição:"
-            data="04 a 14 de junho de 2024"
+            data="20 a 27 de setembro de 2024"
             estado=""
             texto_3="Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:"
           />

@@ -12,12 +12,12 @@ function Inscricoes({ titulo, texto_1, email, texto_2, data, estado, texto_3 }) 
         </a>
       </p>
       <p className={styles.texto}>
-        {texto_2} <span className={styles.encerrado}>{data}</span> {estado}
+        {texto_2} <span className={styles.ativo}>{data}</span> {estado}
       </p>
       <p className={styles.texto}>{texto_3} </p>
       <p className={styles.download}>
         <a
-          href="https://drive.google.com/file/d/1VaXE89VBv0WvPbhuJa8pdWu0k_vk0e3F/view"
+          href="https://drive.google.com/file/d/1nRVPKXW2Yaf8g_9zOhYSRRiBRcnKchah/view?usp=drive_link"
           rel="noreferrer"
           target="_blank"
         >
