@@ -1,10 +1,13 @@
 import Header from '../../../../components/ui/Header/header';
-import styles from './Cabecalho.module.css'
-function Cabecalho  ({titulo,texto }){ 
+import styles from './Cabecalho.module.css';
+import useFetchProcessos from "../../../../hooks/fetch/useFetchProcessos";
+
+function Cabecalho  (){ 
+const {informacoes} = useFetchProcessos();
 return(
 <div className={styles.cabecalho}>
-    <Header  texto = {titulo}/>
-    <p className={styles.texto}>{texto}</p>
+    <Header  texto="Processo Seletivo"/>
+    <p className={styles.texto}>{informacoes.content}</p>
 </div> 
 
 )
