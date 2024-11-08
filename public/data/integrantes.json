@@ -28,15 +28,6 @@
       "linkedin": "https://www.linkedin.com/in/joao-volante/"
     },
     {
-      "id": "14",
-      "nome": "Polyane Stefane",
-      "foto": "./images/fotos_alunos/Polyane Stefane.png",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "github": "https://github.com/PolyStefane",
-      "linkedin": "https://www.linkedin.com/in/polyane-stefane/"
-    },
-    {
       "id": "15",
       "nome": "Fhelippe Guedes",
       "foto": "./images/fotos_alunos/Fhelippe.jpeg",
@@ -408,6 +399,15 @@
       "ano": "2023",
       "github": "https://github.com/SauloFernando99",
       "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
+    },
+    {
+      "id": "57",
+      "nome": "Polyane Stefane",
+      "foto": "./images/fotos_alunos/Polyane Stefane.png",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/PolyStefane",
+      "linkedin": "https://www.linkedin.com/in/polyane-stefane/"
     }
   ],
   "tutores": [
