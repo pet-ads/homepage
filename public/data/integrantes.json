@@ -19,7 +19,7 @@
       "linkedin": "https://www.linkedin.com/in/erick-santinon-gomes"
     },
     {
-      "id": "4",
+      "id": "3",
       "nome": "Fhelippe Guedes",
       "foto": "./images/fotos_alunos/Fhelippe.jpeg",
       "ano": "2024",
@@ -28,7 +28,7 @@
       "linkedin": "https://www.linkedin.com/in/fhelippe-guedes-101822296/"
     },
     {
-      "id": "5",
+      "id": "4",
       "nome": "Guilherme Mendes",
       "foto": "./images/fotos_alunos/GuilhermeMendes.jpg",
       "ano": "2024",
@@ -37,13 +37,31 @@
       "linkedin": "https://www.linkedin.com/in/guilherme-mendes-a336a9251/"
     },
     {
-      "id": "6",
+      "id": "5",
       "nome": "Filipe Balsani",
       "foto": "./images/fotos_alunos/Filipe Balsani.jpg",
       "ano": "2024",
       "tipo": "Bolsista",
       "github": "https://github.com/filipebalsani",
       "linkedin": "https://www.linkedin.com/in/filipe-bueno-balsani-3980b822b/"
+    },
+    {
+      "id": "6",
+      "nome": "Kaua Silva",
+      "foto": "./images/fotos_alunos/Kaua Silva.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/KG-S",
+      "linkedin": "http://www.linkedin.com/in/kau%C3%A3-go-silva"
+    },
+    {
+      "id": "7",
+      "nome": "Matheus Farias",
+      "foto": "./images/fotos_alunos/Matheus Farias.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/KG-Shttps://github.com/MatheusFariasz",
+      "linkedin": "https://www.linkedin.com/in/matheus-farias-b03a742bb/"
     }
   ],
   "exAlunos": [
