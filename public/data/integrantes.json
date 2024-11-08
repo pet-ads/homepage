@@ -10,15 +10,6 @@
       "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
     },
     {
-      "id": "9",
-      "nome": "Saulo F. S. Mania",
-      "foto": "./images/fotos_alunos/saulo.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "github": "https://github.com/SauloFernando99",
-      "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
-    },
-    {
       "id": "12",
       "nome": "Erick Santinon Gomes",
       "foto": "./images/fotos_alunos/Erick Santinon Gomes.jpg",
@@ -404,10 +395,19 @@
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
     },
     {
-      "id": "11",
+      "id": "55",
       "nome": "Eduardo D. Derisso",
       "foto": "./images/fotos_alunos/dudu.jpeg",
       "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
+    },
+    {
+      "id": "56",
+      "nome": "Saulo F. S. Mania",
+      "foto": "./images/fotos_alunos/saulo.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2023",
+      "github": "https://github.com/SauloFernando99",
+      "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
     }
   ],
   "tutores": [
