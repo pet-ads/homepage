@@ -1,5 +1,5 @@
 import './global/App.css';
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import Faq from './pages/Faq/Faq';
 import Home from './pages/Home/home';
 import Equipe from './pages/Equipe/equipe';
@@ -9,6 +9,11 @@ import { Route, Routes, HashRouter } from 'react-router-dom';
 import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 
 function App() {
+
+  useLayoutEffect(() => {
+    window.location.assign("https://www.uol.com.br/");
+  }, [])
+
   return (
     <HashRouter>
       <div className="container">
