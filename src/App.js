@@ -11,7 +11,7 @@ import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 function App() {
 
   useLayoutEffect(() => {
-    window.location.assign("https://www.uol.com.br/");
+    window.location.assign("https://petads-ifsp-scl.vercel.app");
   }, []);
 
   return (
