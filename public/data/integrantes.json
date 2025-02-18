@@ -1,15 +1,6 @@
 {
   "aluno": [
     {
-      "id": "1",
-      "nome": "Bianca C. Antonietti",
-      "foto": "./images/fotos_alunos/bianca.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/biankyrou",
-      "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
-    },
-    {
       "id": "2",
       "nome": "Erick Santinon Gomes",
       "foto": "./images/fotos_alunos/Erick Santinon Gomes.jpg",
@@ -435,6 +426,15 @@
       "tipo": "Voluntário",
       "github": "https://github.com/jpvolante",
       "linkedin": "https://www.linkedin.com/in/joao-volante/"
+    },
+    {
+      "id": "1",
+      "nome": "Bianca C. Antonietti",
+      "foto": "./images/fotos_alunos/bianca.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "github": "https://github.com/biankyrou",
+      "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
     }
   ],
   "tutores": [
