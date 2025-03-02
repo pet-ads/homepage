@@ -51,7 +51,12 @@ Para salvar as alterações siga os seguintes passos
 
 **Nota: As alterações devem sempre ser feitas na branch Main, para acessá-la caso esteja em outra branch, dê o comando *git checkout main***
 
-Após seguir os passos acima, as alterações feitas já estarão no repositório do petads, no entanto, é importante lembrar que esse é o repositório pai, mas não é o repositório rastreado pelo vercel. Para que as alterações sejam refletidas no endereço web correto, é necessário sincronizar a página do repositório de deploy. [Clique aqui para ser redirecionado para o repositório de deploy](https://github.com/pet-ads-deploys/homepage)
+Após seguir os passos acima, as alterações feitas já estarão no repositório do petads, no entanto, é importante lembrar que esse é o repositório pai, mas não é o repositório rastreado pelo vercel. Para que as alterações sejam refletidas no endereço web correto, é necessário sincronizar a página do repositório de deploy. 
+
+Para fazer isso, siga os seguintes passos:
+
++ Em um outro navegador logue com a conta do pet deploys(fornecida pelo professor responsável pelo pet
++ acesse o repositório *https://github.com/pet-ads-deploys/homepage* nessa conta
 
 Agora que você está no repositório de deploy siga os seguintes passos:
 
