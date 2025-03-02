@@ -10,10 +10,6 @@ import ProcessoSeletivo from './pages/ProcessoSeletivo/ProcessoSeletivo';
 
 function App() {
 
-  useLayoutEffect(() => {
-    window.location.assign("https://petads-ifsp-scl.vercel.app/");
-  }, [])
-
   return (
     <HashRouter>
       <div className="container">
