@@ -45,9 +45,9 @@ Para salvar as alterações siga os seguintes passos
 
 ##### No terminal dê os seguintes comandos
 
-+ **git add .** para adicionar as mudanças feitas ao stage
-+ **git commit -m "mensagem de commit"** para commitar as alterações feitas no repositório local
-+ **git push** para enviar as alterações para o repositório remoto(github)
++ ***git add .*** para adicionar as mudanças feitas ao stage
++ ***git commit -m "mensagem de commit"*** para commitar as alterações feitas no repositório local
++ ***git push*** para enviar as alterações para o repositório remoto(github)
 
 **Nota: As alterações devem sempre ser feitas na branch Main, para acessá-la caso esteja em outra branch, dê o comando *git checkout main****
 
