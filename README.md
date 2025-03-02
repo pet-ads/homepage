@@ -49,7 +49,7 @@ Para salvar as alterações siga os seguintes passos
 + **git commit -m "mensagem de commit"** para commitar as alterações feitas no repositório local
 + **git push** para enviar as alterações para o repositório remoto(github)
 
-**Nota: As alterações devem sempre ser feitas na branch Main, para acessá-la caso esteja em outra branch, dê o comando *git checkout main*
+**Nota: As alterações devem sempre ser feitas na branch Main, para acessá-la caso esteja em outra branch, dê o comando *git checkout main****
 
 Após seguir os passos acima, as alterações feitas já estarão no repositório do petads, no entanto, é importante lembrar que esse é o repositório pai, mas não é o repositório rastreado pelo vercel. Para que as alterações sejam refletidas no endereço web correto, é necessário sincronizar a página do repositório de deploy. [Clique aqui para ser redirecionado para o repositório de deploy](https://github.com/pet-ads-deploys/homepage)
 
