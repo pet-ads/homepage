@@ -6,9 +6,9 @@ Página do grupo PET/ADS do IFSP São Carlos
 + Navegue até a pasta onde deseja que o projeto da página fique
 + Dê o seguinte comando:
 
-  git clone https://github.com/pet-ads/homepage.git (para clonar via chave http)
+  *git clone https://github.com/pet-ads/homepage.git* (para clonar via chave http)
 
-  git clone git@github.com:pet-ads/homepage.git (se tiver uma chave ssh configurada em sua máquina)
+  *git clone git@github.com:pet-ads/homepage.git* (se tiver uma chave ssh configurada em sua máquina)
 
 + Instale as dependências do mesmo através do comando **npm install**
 
