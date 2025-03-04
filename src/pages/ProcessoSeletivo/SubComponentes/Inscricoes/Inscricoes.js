@@ -12,7 +12,7 @@ function Inscricoes({ titulo, texto_1, email, texto_2, data, estado, texto_3 }) 
         </a>
       </p>
       <p className={styles.texto}>
-        {texto_2} <span className={styles.ativo}>{data}</span> {estado}
+        {texto_2} <span className={styles.encerrado}>{data}</span> {estado}
       </p>
       {/* <p className={styles.texto}>Resultado da primeira etapa: <a href="https://drive.google.com/file/d/1rg9NGvPGc8DzVAaZRjR5x6KnQCShe8Rv/view" className={styles.resultLink}>Link</a></p>
       <p className={styles.texto}>Resultado final: <a href="https://drive.google.com/file/d/1SRKhEMYmgxpfCN2x3bO9dqri3raoaGtq/view" className={styles.resultLink}>Link</a> (<span style={{color: 'red'}}>novo</span>)</p> */}
