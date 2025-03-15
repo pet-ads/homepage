@@ -29,7 +29,7 @@
     },
     {
       "id": "4",
-      "nome": "Kaua Silva",
+      "nome": "Kauã Silva",
       "foto": "./images/fotos_alunos/Kaua Silva.jpg",
       "ano": "2024",
       "tipo": "Bolsista",
@@ -42,8 +42,62 @@
       "foto": "./images/fotos_alunos/Matheus Farias.jpg",
       "ano": "2024",
       "tipo": "Bolsista",
-      "github": "https://github.com/KG-Shttps://github.com/MatheusFariasz",
+      "github": "https://github.com/MatheusFariasz",
       "linkedin": "https://www.linkedin.com/in/matheus-farias-b03a742bb/"
+    },
+    {
+      "id": "6",
+      "nome": "Carolina Bis",
+      "foto": "./images/fotos_alunos/Carolina Bis.jpeg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/CarolinaBis",
+      "linkedin": "https://www.linkedin.com/in/carolina-bis-b8b262286/"
+    },
+    {
+      "id": "7",
+      "nome": "Dylan Petrucelli",
+      "foto": "./images/fotos_alunos/Dylan Petrucelli.jpeg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/DylanPetrucelli",
+      "linkedin": "https://www.linkedin.com/in/dylan-petrucelli-443b612ba/"
+    },
+    {
+      "id": "8",
+      "nome": "Leonardo Fattori",
+      "foto": "./images/fotos_alunos/Leonardo Fattori.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/LeonardooFattori",
+      "linkedin": "https://www.linkedin.com/in/leonardo-fattori-677438307/"
+    },
+    {
+      "id": "9",
+      "nome": "Gabriel Bocute",
+      "foto": "./images/fotos_alunos/Gabriel Bocute.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/Gnbocute",
+      "linkedin": "https://www.linkedin.com/in/gabriel-bocute-9aa9a2355"
+    },
+    {
+      "id": "10",
+      "nome": "Matheus Pacífico",
+      "foto": "./images/fotos_alunos/Matheus Pacifico.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/matheusspacifico",
+      "linkedin": "https://www.linkedin.com/in/matheusspacifico/"
+    },
+    {
+      "id": "11",
+      "nome": "Érick Rosdachimo",
+      "foto": "./images/fotos_alunos/Erick Rosdachimo.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/Erick-Rosdachimo",
+      "linkedin": "https://www.linkedin.com/in/erick-rosdachimo/"
     }
   ],
   "exAlunos": [
