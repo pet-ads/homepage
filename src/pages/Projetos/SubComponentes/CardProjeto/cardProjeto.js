@@ -3,7 +3,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaSearch, FaGraduationCap } from "react-icons/fa";
 import { AiFillCloseCircle } from "react-icons/ai";
-import { MdExtension, MdOutlineComputer } from "react-icons/md";
+import { MdExtension, MdOutlineComputer} from "react-icons/md";
+import { GiMicroscope } from "react-icons/gi";
 export default function CardProjeto(props) {
   const [isOpen, setIsOpen] = useState(false);
   function setingIsOpen() {
@@ -16,7 +17,7 @@ export default function CardProjeto(props) {
         <motion.div className={isOpen ? "card aberto" : "card fechado"} onClick={setingIsOpen}>
           <motion.div className="logoConteinerOpenned">
             {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
-            {props.tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
+            {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto" />}
             {props.tipo === "extensão" && <MdExtension className="logo-projeto" />}
             {props.tipo === "extensão-desenvolivmento" && (
               <motion.a rel="noopener noreferrer" target="_blank" href={props.page}>
