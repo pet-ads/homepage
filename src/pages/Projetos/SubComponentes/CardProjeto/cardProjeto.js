@@ -29,11 +29,14 @@ export default function CardProjeto(props) {
             </motion.a>
           </motion.div>
 
+          <motion.div className="status-fechado">{props.status}</motion.div>
+
           <motion.div>
             <motion.h2 className="card-titulo">{props.titulo}</motion.h2>
             <motion.p className="card-descricao">{props.descricao}</motion.p>
           </motion.div>
         </motion.div>
+
       )}
 
       {isOpen && (

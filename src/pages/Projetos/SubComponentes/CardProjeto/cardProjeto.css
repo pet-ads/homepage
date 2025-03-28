@@ -147,8 +147,19 @@
   flex-direction: row;
 }
 
+.status-fechado{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--cor-detalhes-azul);
+  color: var(--cor-azul__medio);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
 
-@keyframes jump {
+@keyframes jump { 
   0% {
     transform: translateY(0);
   }
@@ -230,6 +241,13 @@
   .card--texto__expandido {
     line-height: 118%;
     font-size: 1rem;
+  }
+
+  .status-fechado {
+    font-size: 12px;
+    padding: 4px 8px;
+    top: 5px;
+    right: 5px;
   }
 }
 
