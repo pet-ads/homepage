@@ -154,7 +154,7 @@
   background-color: var(--cor-detalhes-azul);
   color: var(--cor-azul__medio);
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 30px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -242,13 +242,6 @@
     line-height: 118%;
     font-size: 1rem;
   }
-
-  .status-fechado {
-    font-size: 12px;
-    padding: 4px 8px;
-    top: 5px;
-    right: 5px;
-  }
 }
 
 @media (max-width: 550px){
@@ -257,10 +250,9 @@
 
 @media (max-width: 450px) {
   .card--texto__expandido {
-    line-height: 110%;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
   }
-  .card-titulo { font-size: 1rem; }
+  .card-titulo { font-size: 1.3rem; }
 }
 
 @media (max-width: 370px) {
