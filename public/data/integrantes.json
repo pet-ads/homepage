@@ -1,25 +1,7 @@
 {
   "aluno": [
     {
-      "id": "3",
-      "nome": "Bianca C. Antonietti",
-      "foto": "./images/fotos_alunos/bianca.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2022",
-      "github": "https://github.com/biankyrou",
-      "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
-    },
-    {
-      "id": "9",
-      "nome": "Saulo F. S. Mania",
-      "foto": "./images/fotos_alunos/saulo.jpeg",
-      "tipo": "Bolsista",
-      "ano": "2023",
-      "github": "https://github.com/SauloFernando99",
-      "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
-    },
-    {
-      "id": "12",
+      "id": "1",
       "nome": "Erick Santinon Gomes",
       "foto": "./images/fotos_alunos/Erick Santinon Gomes.jpg",
       "ano": "2024",
@@ -28,34 +10,7 @@
       "linkedin": "https://www.linkedin.com/in/erick-santinon-gomes"
     },
     {
-      "id": "13",
-      "nome": "João Pedro Volante",
-      "foto": "./images/fotos_alunos/João Pedro Volante.jpg",
-      "ano": "2024",
-      "tipo": "Voluntário",
-      "github": "https://github.com/jpvolante",
-      "linkedin": "https://www.linkedin.com/in/joao-volante/"
-    },
-    {
-      "id": "14",
-      "nome": "Polyane Stefane",
-      "foto": "./images/fotos_alunos/Polyane Stefane.png",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "github": "https://github.com/PolyStefane",
-      "linkedin": "https://www.linkedin.com/in/polyane-stefane/"
-    },
-    {
-      "id": "15",
-      "nome": "Fhelippe Guedes",
-      "foto": "./images/fotos_alunos/Fhelippe.jpeg",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "github": "https://github.com/F-Guedes2003",
-      "linkedin": "https://www.linkedin.com/in/fhelippe-guedes-101822296/"
-    },
-    {
-      "id": "16",
+      "id": "2",
       "nome": "Guilherme Mendes",
       "foto": "./images/fotos_alunos/GuilhermeMendes.jpg",
       "ano": "2024",
@@ -64,13 +19,85 @@
       "linkedin": "https://www.linkedin.com/in/guilherme-mendes-a336a9251/"
     },
     {
-      "id": "17",
-      "nome": "Talitha Maria",
-      "foto": "./images/fotos_alunos/Talitha.jpg",
+      "id": "3",
+      "nome": "Filipe Balsani",
+      "foto": "./images/fotos_alunos/Filipe Balsani.jpg",
       "ano": "2024",
       "tipo": "Bolsista",
-      "github": "https://github.com/fleurspirituelles",
-      "linkedin": "https://www.linkedin.com/in/fleurspirituelles"
+      "github": "https://github.com/filipebalsani",
+      "linkedin": "https://www.linkedin.com/in/filipe-bueno-balsani-3980b822b/"
+    },
+    {
+      "id": "4",
+      "nome": "Kauã Silva",
+      "foto": "./images/fotos_alunos/Kaua Silva.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/KG-S",
+      "linkedin": "http://www.linkedin.com/in/kau%C3%A3-go-silva"
+    },
+    {
+      "id": "5",
+      "nome": "Matheus Farias",
+      "foto": "./images/fotos_alunos/Matheus Farias.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/MatheusFariasz",
+      "linkedin": "https://www.linkedin.com/in/matheus-farias-b03a742bb/"
+    },
+    {
+      "id": "6",
+      "nome": "Carolina Bis",
+      "foto": "./images/fotos_alunos/Carolina Bis.jpeg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/CarolinaBis",
+      "linkedin": "https://www.linkedin.com/in/carolina-bis-b8b262286/"
+    },
+    {
+      "id": "7",
+      "nome": "Dylan Petrucelli",
+      "foto": "./images/fotos_alunos/Dylan Petrucelli.jpeg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/DylanPetrucelli",
+      "linkedin": "https://www.linkedin.com/in/dylan-petrucelli-443b612ba/"
+    },
+    {
+      "id": "8",
+      "nome": "Leonardo Fattori",
+      "foto": "./images/fotos_alunos/Leonardo Fattori.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/LeonardooFattori",
+      "linkedin": "https://www.linkedin.com/in/leonardo-fattori-677438307/"
+    },
+    {
+      "id": "9",
+      "nome": "Gabriel Bocute",
+      "foto": "./images/fotos_alunos/Gabriel Bocute.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/Gnbocute",
+      "linkedin": "https://www.linkedin.com/in/gabriel-bocute-9aa9a2355"
+    },
+    {
+      "id": "10",
+      "nome": "Matheus Pacífico",
+      "foto": "./images/fotos_alunos/Matheus Pacifico.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/matheusspacifico",
+      "linkedin": "https://www.linkedin.com/in/matheusspacifico/"
+    },
+    {
+      "id": "11",
+      "nome": "Érick Rosdachimo",
+      "foto": "./images/fotos_alunos/Erick Rosdachimo.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/Erick-Rosdachimo",
+      "linkedin": "https://www.linkedin.com/in/erick-rosdachimo/"
     }
   ],
   "exAlunos": [
@@ -404,10 +431,64 @@
       "linkedin": "https://www.linkedin.com/in/gabriel-zanotim-manhani/"
     },
     {
-      "id": "11",
+      "id": "55",
       "nome": "Eduardo D. Derisso",
       "foto": "./images/fotos_alunos/dudu.jpeg",
       "linkedin": "https://www.linkedin.com/in/eduardo-duarte-derisso-858546205/"
+    },
+    {
+      "id": "56",
+      "nome": "Saulo F. S. Mania",
+      "foto": "./images/fotos_alunos/saulo.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2023",
+      "github": "https://github.com/SauloFernando99",
+      "linkedin": "https://www.linkedin.com/in/saulo-fernando-soares-mania-6ba606279/"
+    },
+    {
+      "id": "57",
+      "nome": "Polyane Stefane",
+      "foto": "./images/fotos_alunos/Polyane Stefane.png",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/PolyStefane",
+      "linkedin": "https://www.linkedin.com/in/polyane-stefane/"
+    },
+    {
+      "id": "58",
+      "nome": "Talitha Maria",
+      "foto": "./images/fotos_alunos/Talitha.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/fleurspirituelles",
+      "linkedin": "https://www.linkedin.com/in/fleurspirituelles"
+    },
+    {
+      "id": "59",
+      "nome": "João Pedro Volante",
+      "foto": "./images/fotos_alunos/João Pedro Volante.jpg",
+      "ano": "2024",
+      "tipo": "Voluntário",
+      "github": "https://github.com/jpvolante",
+      "linkedin": "https://www.linkedin.com/in/joao-volante/"
+    },
+    {
+      "id": "1",
+      "nome": "Bianca C. Antonietti",
+      "foto": "./images/fotos_alunos/bianca.jpeg",
+      "tipo": "Bolsista",
+      "ano": "2022",
+      "github": "https://github.com/biankyrou",
+      "linkedin": "https://www.linkedin.com/in/bianca-carvalio-antonietti-72381025a/"
+    },
+    {
+      "id": "2",
+      "nome": "Fhelippe Guedes",
+      "foto": "./images/fotos_alunos/Fhelippe.jpeg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/F-Guedes2003",
+      "linkedin": "https://www.linkedin.com/in/fhelippe-guedes-101822296/"
     }
   ],
   "tutores": [

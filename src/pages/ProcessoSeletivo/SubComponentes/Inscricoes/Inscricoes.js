@@ -13,6 +13,7 @@ function Inscricoes() {
           {email}
         </a> */}
       </p>
+
       {}
       {inscricao.estado &&
       inscricao.estado.trim().toLowerCase() === "encerrado" ? (
@@ -33,9 +34,6 @@ function Inscricoes() {
       <a href={inscricao.drive} rel="noreferrer" target="_blank">
         <AiOutlineCloudDownload className={styles.btnDownload} />
       </a>
-      </p>
-
-    </div>
   );
 }
 export default Inscricoes;

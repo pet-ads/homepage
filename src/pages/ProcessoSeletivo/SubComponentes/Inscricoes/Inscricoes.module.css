@@ -28,12 +28,22 @@
     border-radius: 7px;
     border: 2px solid var(--cor-detalhes-azul);
 }
+
 .btnDownload  {
     width: 35px;
     height: auto;
     align-self: center;
     justify-self: center;
     color:var(--cor-texto)
+}
+
+.resultLink {
+    color:rgb(101, 101, 255);
+    text-decoration: none;
+}
+
+.resultLink:hover {
+    font-weight: bold;
 }
 
 .encerrado {
