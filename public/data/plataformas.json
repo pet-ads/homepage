@@ -1,0 +1,14 @@
+{
+    "plataformas": [
+        {
+            "id": "1",
+            "nome": "Instagram - PET/ADS",
+            "url": "https://www.instagram.com/petadsifsp/"
+        },
+        {
+            "id": "2",
+            "nome": "Instagram - WECOMP IFSP",
+            "url": "https://www.instagram.com/wecompifsp/" 
+        }
+    ]
+}

@@ -4,14 +4,12 @@ import Header from "../../components/ui/Header/header";
 import useIsMobile from "../../hooks/window/useIsMobile";
 import FetchProj from "../../hooks/fetch/useFetchProjetos";
 import CardProjeto from "./SubComponentes/CardProjeto/cardProjeto";
-import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
 export default function Projetos() {
   const isMobile = useIsMobile();
 
   return (
     <>
-      <MenuNavegacao />
       <div className="menu-projetos--corpo">
         <Header texto={isMobile ? "Projetos do PET/ADS" : "Projetos Desenvolvidos pelo PET/ADS"} />
         <section className="menu-projetos">
@@ -22,8 +20,8 @@ export default function Projetos() {
                 .sort((a, b) => {
                   const statusOrder = {
                     "Em andamento": 1,
-                    Contínuo: 2,
-                    Concluído: 3,
+                    "Contínuo": 2,
+                    "Concluído": 3,
                   };
                   return statusOrder[a.status] - statusOrder[b.status];
                 })

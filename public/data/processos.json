@@ -1,0 +1,21 @@
+{
+    "processoSeletivoContent":{
+        "content": "Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e Desenvolvimento de Sistemas do IFSP Câmpus São Carlos podem participar dos processos seletivos do PET/ADS. O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por editais publicados periodicamente."
+    },
+    "requisitosContent": {
+        "introducao": "Para se inscrever no processo seletivo, o candidato deverá:",
+        "requirements": [ 
+            { "text": "Estar regularmente matriculado no curso de Análise e Desenvolvimento de Sistemas." },
+
+            { "text": "Possuir disponibilidade para se dedicar 20 horas semanais ao PET/ADS." }
+        ]
+    },
+    "inscricoesContent": {
+        "introducao": "As inscrições devem ser realizadas pelo formulário indicado no edital.",
+        "prazo": "Prazo de inscrição:",
+        "data": "20 a 27 de setembro de 2024",
+        "estado": "encerrado",
+        "detalhes": "Detalhes sobre documentos necessários, critérios, cronograma e outras informações devem ser verificadas no edital:",
+        "drive": "https://drive.google.com/file/d/1nRVPKXW2Yaf8g_9zOhYSRRiBRcnKchah/view"
+    }
+}

@@ -2,22 +2,12 @@ import "./ProcessoSeletivo.css";
 import Cabecalho from "./SubComponentes/Cabecalho/Cabecalho";
 import Requisitos from "./SubComponentes/Requisitos/Requisitos";
 import Inscricoes from "./SubComponentes/Inscricoes/Inscricoes";
-import MenuNavegacao from "../../components/menus/MenuNavegacao/menuNavegacao";
 
 function ProcessoSeletivo() {
   return (
     <>
-      <MenuNavegacao />
-
       <div className="corpo">
-        <Cabecalho
-          titulo="Processo Seletivo"
-          texto="Todos os estudantes regularmente matriculados no curso de Tecnologia em Análise e 
-                    Desenvolvimento de Sistemas do IFSP Câmpus São Carlos podem participar dos processos seletivos do PET/ADS. 
-                    O grupo é composto por até doze bolsistas e até seis voluntários.  Os processos seletivos são regidos por 
-                    editais publicados periodicamente."
-        />
-
+        <Cabecalho />
         <section className="corpo_informacoes">
           <Requisitos
             titulo="Requisitos"
