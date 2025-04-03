@@ -1,10 +1,12 @@
 import "./cardProjeto.css";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaSearch, FaGraduationCap } from "react-icons/fa";
+import { FaGithub, FaGraduationCap } from "react-icons/fa";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdExtension, MdOutlineComputer} from "react-icons/md";
 import { GiMicroscope } from "react-icons/gi";
+import { Tooltip } from "react-tooltip";
+
 export default function CardProjeto(props) {
   const [isOpen, setIsOpen] = useState(false);
   function setingIsOpen() {
@@ -16,14 +18,24 @@ export default function CardProjeto(props) {
       {!isOpen && (
         <motion.div className={isOpen ? "card aberto" : "card fechado"} onClick={setingIsOpen}>
           <motion.div className="logoConteinerOpenned">
-            {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
-            {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto" />}
+            <span data-tooltip-id="tooltip-ensino" data-tooltip-content="Ensino">
+              {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
+            </span>
+            <span data-tooltip-id="tooltip-pesquisa" data-tooltip-content="Pesquisa">
+            {props.tipo === "pesquisa" && <GiMicroscope className="logo-pesquisa" />}  
+            </span>
+            <span data-tooltip-id="tooltip-extensao" data-tooltip-content="Extensão">
             {props.tipo === "extensão" && <MdExtension className="logo-projeto" />}
+            </span>
+
+            <span data-tooltip-id="tooltip-desenvolvimento" data-tooltip-content="Desenvolvimento">
             {props.tipo === "extensão-desenvolivmento" && (
               <motion.a rel="noopener noreferrer" target="_blank" href={props.page}>
                 <MdOutlineComputer className="logo-projeto-dev" />
               </motion.a>
             )}
+            </span>
+          
             <motion.a rel="noopener noreferrer" target="_blank" href={props.link}>
               <FaGithub className="Icon" />
             </motion.a>
@@ -45,7 +57,7 @@ export default function CardProjeto(props) {
           <motion.div className={isOpen ? "card aberto" : "card fechado"}>
             <motion.div className="logoConteinerClosed">
               {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
-              {props.tipo === "pesquisa" && <FaSearch className="logo-projeto" />}
+              {props.tipo === "pesquisa" && <GiMicroscope className="logo-pesquisa" />}
               {props.tipo === "extensão" && <MdExtension className="logo-projeto" />}
               {props.tipo === "extensão-desenvolivmento" && (
                 <motion.a rel="noopener noreferrer" target="_blank" href={props.page}>
@@ -74,6 +86,10 @@ export default function CardProjeto(props) {
           </motion.div>
         </>
       )}
+      <Tooltip id="tooltip-ensino" className="tooltip" delayShow={300}/>
+      <Tooltip id="tooltip-pesquisa" className="tooltip" delayShow={300}/>
+      <Tooltip id="tooltip-extensao" className="tooltip" delayShow={300}/>
+      <Tooltip id="tooltip-desenvolvimento" className="tooltip" delayShow={300}/>
     </>
   );
 }

@@ -5,7 +5,8 @@
   align-items: flex-start;
   background-color: var(--cor-azul__medio);
   overflow: hidden;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 5px 5px 20px rgba(54, 40, 101, 0.5);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+    5px 5px 20px rgba(54, 40, 101, 0.5);
 }
 
 .aberto {
@@ -39,7 +40,6 @@
   transition: transform 0.3s ease-out;
 }
 
-
 .card_background {
   top: 0%;
   left: 0%;
@@ -56,6 +56,14 @@
 
 .logo-projeto {
   width: 50px;
+  height: auto;
+  display: flex;
+  filter: hue-rotate(9deg);
+  color: var(--cor-detalhes-azul);
+}
+
+.logo-pesquisa {
+  width: 45px;
   height: auto;
   display: flex;
   filter: hue-rotate(9deg);
@@ -118,7 +126,7 @@
   width: 30px;
   height: 30px;
   right: 8px;
-  top: 8px
+  top: 8px;
 }
 
 .closeButton:hover {
@@ -139,7 +147,7 @@
   line-height: 150%;
   padding-right: 1rem;
   padding-bottom: 1rem;
-  color: var(--cor-texto__claro)
+  color: var(--cor-texto__claro);
 }
 
 .card--texto__envolvidos {
@@ -147,7 +155,7 @@
   flex-direction: row;
 }
 
-.status-fechado{
+.status-fechado {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -159,11 +167,20 @@
   font-weight: bold;
 }
 
-@keyframes jump { 
+.tooltip {
+  background-color: var(--cor-detalhes-azul) !important;
+  color: var(--cor-azul__medio) !important;
+  padding: 10px 15px !important;
+  border-radius: 10px !important;
+  font-size: 14px !important;
+  box-shadow: 2px 2px 5px rgba(20, 16, 56, 0.3) !important;
+}
+
+@keyframes jump {
   0% {
     transform: translateY(0);
   }
-  50% {
+  50% { 
     transform: translateY(-5px);
   }
   100% {
@@ -208,7 +225,7 @@
   }
 }
 
-@media (max-width: 1150px){
+@media (max-width: 1150px) {
   .card-titulo {
     font-size: 1rem;
   }
@@ -221,8 +238,10 @@
   }
 }
 
-@media (max-width: 915px){
-  .card-titulo { font-size: 0.8rem; }
+@media (max-width: 915px) {
+  .card-titulo {
+    font-size: 0.8rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -237,24 +256,32 @@
     right: 0;
     position: fixed;
   }
-  .card-titulo { font-size: 1.5rem; }
+  .card-titulo {
+    font-size: 1.5rem;
+  }
   .card--texto__expandido {
     line-height: 118%;
     font-size: 1rem;
   }
 }
 
-@media (max-width: 550px){
-  .card-titulo { font-size: 1.25rem; }
+@media (max-width: 550px) {
+  .card-titulo {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 450px) {
   .card--texto__expandido {
     font-size: 1.2rem;
   }
-  .card-titulo { font-size: 1.3rem; }
+  .card-titulo {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 370px) {
-  .card-titulo { font-size: 0.8rem; }
+  .card-titulo {
+    font-size: 0.8rem;
+  }
 }
