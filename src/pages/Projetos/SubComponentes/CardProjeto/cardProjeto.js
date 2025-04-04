@@ -18,14 +18,15 @@ export default function CardProjeto(props) {
       {!isOpen && (
         <motion.div className={isOpen ? "card aberto" : "card fechado"} onClick={setingIsOpen}>
           <motion.div className="logoConteinerOpenned">
+            <motion.div className="logoConteiner">
             <span data-tooltip-id="tooltip-ensino" data-tooltip-content="Ensino">
-              {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
+              {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto-dev" />}
             </span>
             <span data-tooltip-id="tooltip-pesquisa" data-tooltip-content="Pesquisa">
-            {props.tipo === "pesquisa" && <GiMicroscope className="logo-pesquisa" />}  
+            {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-dev" />}  
             </span>
             <span data-tooltip-id="tooltip-extensao" data-tooltip-content="Extensão">
-            {props.tipo === "extensão" && <MdExtension className="logo-projeto" />}
+            {props.tipo === "extensão" && <MdExtension className="logo-projeto-dev" />}
             </span>
 
             <span data-tooltip-id="tooltip-desenvolvimento" data-tooltip-content="Desenvolvimento">
@@ -39,9 +40,10 @@ export default function CardProjeto(props) {
             <motion.a rel="noopener noreferrer" target="_blank" href={props.link}>
               <FaGithub className="Icon" />
             </motion.a>
+            </motion.div>
+            <motion.div className="status-fechado">{props.status}</motion.div>
           </motion.div>
 
-          <motion.div className="status-fechado">{props.status}</motion.div>
 
           <motion.div>
             <motion.h2 className="card-titulo">{props.titulo}</motion.h2>
@@ -56,9 +58,9 @@ export default function CardProjeto(props) {
           <div className="card_background" onClick={() => setIsOpen(!isOpen)}></div>
           <motion.div className={isOpen ? "card aberto" : "card fechado"}>
             <motion.div className="logoConteinerClosed">
-              {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto" />}
-              {props.tipo === "pesquisa" && <GiMicroscope className="logo-pesquisa" />}
-              {props.tipo === "extensão" && <MdExtension className="logo-projeto" />}
+              {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto-dev" />}
+              {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-dev" />}
+              {props.tipo === "extensão" && <MdExtension className="logo-projeto-dev" />}
               {props.tipo === "extensão-desenvolivmento" && (
                 <motion.a rel="noopener noreferrer" target="_blank" href={props.page}>
                   <MdOutlineComputer className="logo-projeto-dev" />
