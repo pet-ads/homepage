@@ -25,7 +25,7 @@
       "id": "3",
       "tipo": "ensino",
       "link": "https://github.com/pet-ads/data-science-lab",
-      "titulo": "Projeto Leitura Compartilhada",
+      "titulo": "Laboratório de Ciência de Dados",
       "status": "Em andamento",
       "descricao": "Estudo de conceitos de Ciência de Dados a partir de bibliotecas Python, com a produção de materias didáticos reutilizáveis por outros alunos.",
       "expandido": "Estudo dos conceitos de Ciência de Dados com bibliotecas Python, como Pandas, Matplotlib e Scikit-Learn. Os scripts serão executados no Google Colab. Com base nos materiais estudados e nos estudos de caso, será criada uma documentação para orientar outros alunos interessados no tema.",
