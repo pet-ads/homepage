@@ -62,6 +62,18 @@
   color: var(--cor-detalhes-azul);
 }
 
+.logo-projeto-microscope {
+  width: 42px;
+  height: auto;
+  display: flex;
+  filter: hue-rotate(9deg);
+  color: var(--cor-detalhes-azul);
+}
+.logo-projeto-microscope:hover {
+  cursor: pointer;
+  animation: jump 0.75s;
+}
+
 .logoConteiner{
   display: flex;
 }
@@ -84,7 +96,6 @@
   width: 35px;
   height: 35px;
   display: flex;
-  margin-left: 50%;
   color: var(--cor-detalhes-azul);
 }
 
@@ -106,7 +117,9 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  gap: 1rem;
   width: 100%;
+  margin-bottom: 1.4rem;
 }
 
 .closeButton {
@@ -146,6 +159,15 @@
 
 .status-fechado {
   margin-left: auto;
+  background-color: var(--cor-detalhes-azul);
+  color: var(--cor-azul__medio);
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status-fechado-card{
   background-color: var(--cor-detalhes-azul);
   color: var(--cor-azul__medio);
   padding: 5px 10px;
@@ -277,8 +299,34 @@
     font-size: 0.8rem;
   }
 }
+
 @media (min-width: 769px) {
   .card-titulo {
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .tooltip {
+    display: none !important;
+  }
+}
+
+@media (max-width: 358px) {
+  .logoConteinerOpenned,
+  .logoConteinerClosed {
+    flex-wrap: wrap;
+  }
+
+  .card-titulo {
+    font-size: 1.2rem;
+  }
+
+  .status-fechado,
+  .status-fechado-card {
+    flex-basis: 100%;
+    margin-top: 0.7rem;
+    text-align: center;
+    margin-right: auto;
   }
 }

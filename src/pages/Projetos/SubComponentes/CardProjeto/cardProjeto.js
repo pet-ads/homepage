@@ -23,7 +23,7 @@ export default function CardProjeto(props) {
               {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto-dev" />}
             </span>
             <span data-tooltip-id="tooltip-pesquisa" data-tooltip-content="Pesquisa">
-            {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-dev" />}  
+            {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-microscope" />}  
             </span>
             <span data-tooltip-id="tooltip-extensao" data-tooltip-content="Extensão">
             {props.tipo === "extensão" && <MdExtension className="logo-projeto-dev" />}
@@ -59,23 +59,24 @@ export default function CardProjeto(props) {
           <motion.div className={isOpen ? "card aberto" : "card fechado"}>
             <motion.div className="logoConteinerClosed">
               {props.tipo === "ensino" && <FaGraduationCap className="logo-projeto-dev" />}
-              {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-dev" />}
+              {props.tipo === "pesquisa" && <GiMicroscope className="logo-projeto-microscope" />}
               {props.tipo === "extensão" && <MdExtension className="logo-projeto-dev" />}
               {props.tipo === "extensão-desenvolivmento" && (
                 <motion.a rel="noopener noreferrer" target="_blank" href={props.page}>
                   <MdOutlineComputer className="logo-projeto-dev" />
                 </motion.a>
               )}
-
+              
               <motion.a rel="noopener noreferrer" target="_blank" href={props.link}>
                 <FaGithub className="icon-aberto" />
               </motion.a>
+              <motion.div className="status-fechado-card">{props.status}</motion.div>
             </motion.div>
             <AiFillCloseCircle className="closeButton" onClick={() => setIsOpen(!isOpen)} />
 
             <motion.div>
               <motion.h2 className="card-titulo">
-                {props.titulo} → {props.status}
+                {props.titulo}
               </motion.h2>
               <motion.div className="scrowSpace">
                 <p className="card--texto__expandido">{props.expandido}</p>
