@@ -30,8 +30,7 @@ function Inscricoes() {
         </p>
       )}
       <p className={styles.texto}>{inscricao.detalhes} </p>
-      <p className={styles.download}></p>
-      <a href={inscricao.drive} rel="noreferrer" target="_blank">
+      <a href={inscricao.drive} rel="noreferrer" target="_blank" className={styles.download}>
         <AiOutlineCloudDownload className={styles.btnDownload} />
       </a>
       </div>
