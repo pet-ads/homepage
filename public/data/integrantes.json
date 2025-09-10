@@ -19,15 +19,6 @@
       "linkedin": "https://www.linkedin.com/in/guilherme-mendes-a336a9251/"
     },
     {
-      "id": "3",
-      "nome": "Filipe Balsani",
-      "foto": "./images/fotos_alunos/Filipe Balsani.jpg",
-      "ano": "2024",
-      "tipo": "Bolsista",
-      "github": "https://github.com/filipebalsani",
-      "linkedin": "https://www.linkedin.com/in/filipe-bueno-balsani-3980b822b/"
-    },
-    {
       "id": "4",
       "nome": "Kauã Silva",
       "foto": "./images/fotos_alunos/Kaua Silva.jpg",
@@ -489,6 +480,15 @@
       "tipo": "Bolsista",
       "github": "https://github.com/CarolinaBis",
       "linkedin": "https://www.linkedin.com/in/carolina-bis-b8b262286/"
+    },
+    {
+      "id": "3",
+      "nome": "Filipe Balsani",
+      "foto": "./images/fotos_alunos/Filipe Balsani.jpg",
+      "ano": "2024",
+      "tipo": "Bolsista",
+      "github": "https://github.com/filipebalsani",
+      "linkedin": "https://www.linkedin.com/in/filipe-bueno-balsani-3980b822b/"
     }
   ],
   "tutores": [
