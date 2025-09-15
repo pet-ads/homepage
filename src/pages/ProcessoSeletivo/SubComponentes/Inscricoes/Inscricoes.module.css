@@ -52,7 +52,18 @@
 }
 
 .ativo {
-    color: rgb(101, 101, 255);
+    color: yellow;
+    font-weight: bold;
+    animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+    from {
+        color: yellow;
+    }
+    to {
+        color: orange;
+    }
 }
 
 .email {
