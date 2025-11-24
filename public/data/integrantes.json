@@ -11,12 +11,12 @@
     },
     {
       "id": "2",
-      "nome": "Guilherme Mendes",
-      "foto": "./images/fotos_alunos/GuilhermeMendes.jpg",
-      "ano": "2024",
+      "nome": "Cauã Habermann",
+      "foto": "./images/fotos_alunos/Cauã Habermann.jpg",
+      "ano": "2025",
       "tipo": "Bolsista",
-      "github": "https://github.com/GuilhermeAMendes",
-      "linkedin": "https://www.linkedin.com/in/guilherme-mendes-a336a9251/"
+      "github": "https://github.com/BABERMANN ",
+      "linkedin": "https://www.linkedin.com/in/caua-habermann"
     },
     {
       "id": "4",
@@ -80,6 +80,51 @@
       "tipo": "Bolsista",
       "github": "https://github.com/Erick-Rosdachimo",
       "linkedin": "https://www.linkedin.com/in/erick-rosdachimo/"
+    },
+    {
+      "id": "11",
+      "nome": "Gabriel Melo",
+      "foto": "./images/fotos_alunos/Gabriel Melo.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/gabriel-ribeiro-9235",
+      "linkedin": "https://www.linkedin.com/in/gabriel-melo-ribeiro-2436a3261/"
+    },
+    {
+      "id": "12",
+      "nome": "Mariana Sônego",
+      "foto": "./images/fotos_alunos/Mariana Sonego.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/mari-sonego",
+      "linkedin": "https://www.linkedin.com/in/mariana-s%C3%B4nego-6b6aba346/"
+    },
+    {
+      "id": "13",
+      "nome": "Felipe Pereira",
+      "foto": "./images/fotos_alunos/Felipe Pereira.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/felipe-pereira06",
+      "linkedin": "www.linkedin.com/in/felipe-candelora-pereira"
+    },
+    {
+      "id": "14",
+      "nome": "Pedro Neo",
+      "foto": "./images/fotos_alunos/Pedro Neo.jpg",
+      "ano": "2025",
+      "tipo": "Bolsista",
+      "github": "https://github.com/pedrozzneo",
+      "linkedin": "https://www.linkedin.com/in/pedroneo/"
+    },
+    {
+      "id": "15",
+      "nome": "Pedro Neo",
+      "foto": "./images/fotos_alunos/Matheus Zampieri.jpg",
+      "ano": "2025",
+      "tipo": "Voluntário",
+      "github": "https://github.com/matheusrzampieri",
+      "linkedin": "https://www.linkedin.com/in/matheus-racy-zampieri-a0128032b/"
     }
   ],
   "exAlunos": [
