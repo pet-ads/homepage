@@ -156,6 +156,16 @@
       "descricao": "Elaboração de material introdutório sobre a linguagem de programação Go com foco em alunos do ensino técnico.",
       "expandido": "Elaboração de material didático introdutório sobre a linguagem de programação Go, voltado para alunos do ensino técnico. O material será disponibilizado a todos os alunos do câmpus e poderá ser utilizado em cursos de programação.",
       "tecnologias": "Tecnologias utilizadas: - Golang"
+    },
+    {
+      "id": "17",
+      "tipo": "ensino",
+      "link": "https://github.com/pet-ads/cybersecurity-lab.git",
+      "titulo": "Laboratório de Cibersegurança",
+      "status": "Concluído",
+      "descricao": "Estudo dos principais conceitos de Cibersegurança, incluindo vulnerabilidades web, autenticação, autorização, hardening, monitoramento e testes de segurança.",
+      "expandido": "Estudo dos principais conceitos de Cibersegurança, abordando temas como vulnerabilidades em aplicações web, autenticação, autorização, hardening, infraestrutura, monitoramento e testes de segurança. O projeto é organizado em etapas progressivas, com base em conceitos teóricos e exemplos práticos. A partir dos materiais estudados, será desenvolvida uma documentação para orientar outros alunos interessados em aprender e se aprofundar na área de Cibersegurança.",
+      "tecnologias": "Tecnologias utilizadas: - Cibersegurança, OWASP Top 10, Autenticação e Autorização, Hardening, Infraestrutura, Monitoramento e Testes de Segurança."
     }
   ]
 }
