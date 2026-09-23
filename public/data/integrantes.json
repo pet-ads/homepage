@@ -89,6 +89,42 @@
       "tipo": "Bolsista",
       "github": "https://github.com/matheusrzampieri",
       "linkedin": "https://www.linkedin.com/in/matheus-racy-zampieri-a0128032b/"
+    },
+    {
+      "id": "11",
+      "nome": "Henrique Cardoso",
+      "foto": "./images/fotos_alunos/HenriqueCardoso.jpg",
+      "ano": "2026",
+      "tipo": "Voluntário",
+      "github": "https://github.com/henriqueconstantinovcardoso-eng",
+      "linkedin": "https://www.linkedin.com/in/henrique-cardoso-267011438/"
+    },
+    {
+      "id": "12",
+      "nome": "Lucas Xavier",
+      "foto": "./images/fotos_alunos/LucasXavier.jpg",
+      "ano": "2026",
+      "tipo": "Bolsista",
+      "github": "https://github.com/LucasXavierabc",
+      "linkedin": "https://www.linkedin.com/in/lucas-xavier-693220384/"
+    },
+    {
+      "id": "13",
+      "nome": "Laura Valim",
+      "foto": "./images/fotos_alunos/LauraValim.jpg",
+      "ano": "2026",
+      "tipo": "Bolsista",
+      "github": "https://github.com/LaurinhaValim",
+      "linkedin": "https://www.linkedin.com/in/laura-valim/"
+    },
+    {
+      "id": "14",
+      "nome": "Maria Paris",
+      "foto": "./images/fotos_alunos/MariaParis.jpg",
+      "ano": "2026",
+      "tipo": "Bolsista",
+      "github": "https://github.com/mariasparis",
+      "linkedin": "https://www.linkedin.com/in/maria-paris-3101113b9/"
     }
   ],
   "exAlunos": [
